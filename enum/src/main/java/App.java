@@ -6,10 +6,7 @@ public class App {
         ColorEnum green = ColorEnum.GREEN;
         System.out.println(red.compareTo(green));
 
-
-
-//        Brush brush = new Brush(ColorEnum.RED);
-//        System.out.println(brush);
+        new  Driver().actions(ColorSimple.GREEN);
 
     }
 }
